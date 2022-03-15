@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/TikTok/static/css/main.9825b4d7.css",
-    "main.js": "/TikTok/static/js/main.5622c386.js",
-    "static/js/787.fe00223f.chunk.js": "/TikTok/static/js/787.fe00223f.chunk.js",
-    "static/media/6.mp4": "/TikTok/static/media/6.816228b2a618ef21407f.mp4",
-    "static/media/7.mp4": "/TikTok/static/media/7.724dbfc76dd3715d8a26.mp4",
-    "static/media/2.mp4": "/TikTok/static/media/2.f0c4ced563b108445993.mp4",
-    "static/media/3.mp4": "/TikTok/static/media/3.758f66737b466eb1be2f.mp4",
-    "static/media/5.mp4": "/TikTok/static/media/5.8ab344674e734c5cb6ee.mp4",
-    "static/media/1.mp4": "/TikTok/static/media/1.5ec9e666d604ca34664b.mp4",
-    "static/media/4.mp4": "/TikTok/static/media/4.1f2acece5cc284b72fd0.mp4",
-    "static/media/anriremi.jpg": "/TikTok/static/media/anriremi.44a6cea1957f5c3a1492.jpg",
-    "static/media/7.jpg": "/TikTok/static/media/7.305634276cead939dcd0.jpg",
-    "static/media/insider2426.jpg": "/TikTok/static/media/insider2426.785d6a988b15ac0b7259.jpg",
-    "static/media/bvrav4.jpg": "/TikTok/static/media/bvrav4.e69a6c14a6cd65a7e0ee.jpg",
-    "static/media/ryanviu.jpg": "/TikTok/static/media/ryanviu.9b1d75721e4f31116397.jpg",
-    "static/media/ktlntv.jpg": "/TikTok/static/media/ktlntv.814a124b86db8c378831.jpg",
-    "static/media/nhatthanh420.jpg": "/TikTok/static/media/nhatthanh420.a471fe19496ea4ce68dc.jpg",
-    "index.html": "/TikTok/index.html",
-    "main.9825b4d7.css.map": "/TikTok/static/css/main.9825b4d7.css.map",
-    "main.5622c386.js.map": "/TikTok/static/js/main.5622c386.js.map",
-    "787.fe00223f.chunk.js.map": "/TikTok/static/js/787.fe00223f.chunk.js.map"
+    "main.css": "/static/css/main.9825b4d7.css",
+    "main.js": "/static/js/main.18eb635e.js",
+    "static/js/787.fe00223f.chunk.js": "/static/js/787.fe00223f.chunk.js",
+    "static/media/6.mp4": "/static/media/6.816228b2a618ef21407f.mp4",
+    "static/media/7.mp4": "/static/media/7.724dbfc76dd3715d8a26.mp4",
+    "static/media/2.mp4": "/static/media/2.f0c4ced563b108445993.mp4",
+    "static/media/3.mp4": "/static/media/3.758f66737b466eb1be2f.mp4",
+    "static/media/5.mp4": "/static/media/5.8ab344674e734c5cb6ee.mp4",
+    "static/media/1.mp4": "/static/media/1.5ec9e666d604ca34664b.mp4",
+    "static/media/4.mp4": "/static/media/4.1f2acece5cc284b72fd0.mp4",
+    "static/media/anriremi.jpg": "/static/media/anriremi.44a6cea1957f5c3a1492.jpg",
+    "static/media/7.jpg": "/static/media/7.305634276cead939dcd0.jpg",
+    "static/media/insider2426.jpg": "/static/media/insider2426.785d6a988b15ac0b7259.jpg",
+    "static/media/bvrav4.jpg": "/static/media/bvrav4.e69a6c14a6cd65a7e0ee.jpg",
+    "static/media/ryanviu.jpg": "/static/media/ryanviu.9b1d75721e4f31116397.jpg",
+    "static/media/ktlntv.jpg": "/static/media/ktlntv.814a124b86db8c378831.jpg",
+    "static/media/nhatthanh420.jpg": "/static/media/nhatthanh420.a471fe19496ea4ce68dc.jpg",
+    "index.html": "/index.html",
+    "main.9825b4d7.css.map": "/static/css/main.9825b4d7.css.map",
+    "main.18eb635e.js.map": "/static/js/main.18eb635e.js.map",
+    "787.fe00223f.chunk.js.map": "/static/js/787.fe00223f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9825b4d7.css",
-    "static/js/main.5622c386.js"
+    "static/js/main.18eb635e.js"
   ]
 }
