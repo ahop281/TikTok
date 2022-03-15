@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from 'react-router-dom'
+
+import Layout from './pages/Layout'
+import Home from './pages/Home'
+import Following from './pages/Following'
+import NotUpdate from './pages/NotUpdate'
+
+import './App.scss'
+import './scss/Responsive.scss'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Routes>
+            <Route path="/" element={<Layout />}>
+                <Route path="/" element={<Home />} />
+                <Route path="/following" element={<Following />} />
+                
+            </Route>
+            <Route path="/live" element={<NotUpdate />} />
+            <Route path="/not-update" element={<NotUpdate />} />
+        </Routes>
+    )
 }
 
-export default App;
+export default App

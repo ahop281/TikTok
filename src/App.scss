@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #aaa;
+    border-radius: 3px;
+}
+
+.body-btn {
+    color: rgba(254, 44, 85, 1.0);
+    border: 1px solid rgba(254, 44, 85, 1.0);
+    border-radius: 4px;
+    &:hover {
+        background-color: #fe2c550f;
+    }
+}

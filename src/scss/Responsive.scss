@@ -1,0 +1,38 @@
+
+@media screen and (max-width: 1070px) {
+    #sidebar {
+        padding: 0 6px;
+        width: 72px;
+        border-right: 1px solid rgba(0, 0, 0, .1);
+        box-shadow: 1px 0 4px 0 rgba(0, 0, 0, .04);
+        overflow: hidden;
+
+        & > div {
+            width: 100%;
+            padding: 10px 0;
+
+        }
+        .sidebar-item {
+            text-align: center;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .max-w-hidden {
+            display: none;  
+        }
+        .vertical-line {
+            margin: 8px 0 0;
+        }
+        #user-recommend {
+            padding: 0 0;
+            a {
+                padding: 8px 0;
+                justify-content: center;
+
+                img {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
