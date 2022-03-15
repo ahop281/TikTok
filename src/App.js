@@ -11,13 +11,12 @@ import './scss/Responsive.scss'
 function App() {
     return (
         <Routes>
-            <Route path="/" element={<Layout />}>
-                <Route path="/" element={<Home />} />
-                <Route path="/following" element={<Following />} />
-                
+            <Route path="/TikTok" element={<Layout />}>
+                <Route path="/TikTok" element={<Home />} />
+                <Route path="/TikTok/following" element={<Following />} />
             </Route>
-            <Route path="/live" element={<NotUpdate />} />
-            <Route path="/not-update" element={<NotUpdate />} />
+            <Route path="/TikTok/live" element={<NotUpdate />} />
+            <Route path="/TikTok/not-update" element={<NotUpdate />} />
         </Routes>
     )
 }

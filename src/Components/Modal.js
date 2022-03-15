@@ -34,7 +34,7 @@ export default function Modal() {
                                             {
                                                 LoginApi.map(api => (
                                                     <li key={api.id} className="mb-4 transition-colors hover:bg-black/5">
-                                                        <Link to="/not-update">
+                                                        <Link to="/TikTok/not-update">
                                                             <div className="flex h-11">
                                                                 <div className="flex justify-center items-center h-full w-11 border-[1px] border-black/10">
                                                                     <i className={`text-xl ${api.iconClassName}`}></i>
@@ -75,7 +75,7 @@ export default function Modal() {
                                                 SignUpApi.map((api, index) => {
                                                     if (showMore || index < 3) return (
                                                         <li key={api.id} className="mb-4 transition-colors hover:bg-black/5">
-                                                            <Link to="/not-update">
+                                                            <Link to="/TikTok/not-update">
                                                                 <div className="flex h-11">
                                                                     <div className="flex justify-center items-center h-full w-11 border-[1px] border-black/10">
                                                                         <i className={`text-xl ${api.iconClassName}`}></i>

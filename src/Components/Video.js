@@ -85,7 +85,7 @@ function Video( props ) {
     return (
         <div className="pr-4 w-full">
             <div className="flex items-start py-5">
-                <Link to="/not-update">
+                <Link to="/TikTok/not-update">
                     <div className="w-14 rounded-full overflow-hidden">
                         <img className="w-full" src={props.avt} alt="avt" />
                     </div>
@@ -95,7 +95,7 @@ function Video( props ) {
                 <div className="flex-1 ml-3">
                     <div className="flex items-center justify-between">
                         <div>
-                            <Link to="/not-update">
+                            <Link to="/TikTok/not-update">
                                 <span className="mr-2 font-bold text-lg hover:underline">{props.name}</span>
                                 <span className="font-light text-base">{props.subName}</span>
                             </Link>

@@ -25,16 +25,16 @@ export default function SideBar() {
             <div className="pt-[20px] pb-6 pl-3 flex flex-col justify-center items-center">
                 <nav className="flex flex-col w-full">
                     <Link 
-                        className={"sidebar-item sidebar-item-hover" + (page === '' ? ' active' : '')} 
-                        to='/' 
-                        onClick={() => {if (page !== '') setPage('')}}
+                        className={"sidebar-item sidebar-item-hover" + (page === 'TikTok' ? ' active' : '')} 
+                        to='/TikTok' 
+                        onClick={() => {if (page !== 'TikTok') setPage('TikTok')}}
                     >
                         <i className="fas fa-home"></i>
                         <span className="ml-3 max-w-hidden">Dành cho bạn</span>
                     </Link>
                     <Link
                         className={"sidebar-item sidebar-item-hover" + (page === 'following' ? ' active' : '')}
-                        to='/following'
+                        to='/TikTok/following'
                         onClick={() => {if (page !== 'following') setPage('following')}}
                     >
                         <i className="fas fa-user-friends"></i>
@@ -42,7 +42,7 @@ export default function SideBar() {
                     </Link>
                     <Link 
                         className={"sidebar-item sidebar-item-hover" + (page === 'live' ? ' active' : '')} 
-                        to='/live'
+                        to='/TikTok/live'
                         onClick={() => {if (page !== 'live') setPage('live')}}
                     >
                         <i className="fas fa-video"></i>
@@ -72,7 +72,7 @@ export default function SideBar() {
                                     if (showMore || (!showMore && index < 5)) {
                                         return (
                                             <li key={index} className="sidebar-item-hover">
-                                                <Link className="flex items-center px-2 py-[4px] w-full" to="/">
+                                                <Link className="flex items-center px-2 py-[4px] w-full" to="/TikTok">
                                                     <div>
                                                         <img className="mr-3 w-[32px] rounded-full" src={item.avt} alt="avatar" />
                                                     </div>
@@ -107,7 +107,7 @@ export default function SideBar() {
                                 else iconClassName = 'fab fa-itunes-note'
 
                                 return (
-                                    <Link key={index} className="max-w-full w-fit" to="/not-update">
+                                    <Link key={index} className="max-w-full w-fit" to="/TikTok/not-update">
                                         <span className="discover-item">
                                             <i className={iconClassName}></i>
                                             <p>{item.title}</p>
@@ -125,7 +125,7 @@ export default function SideBar() {
                     <div className="flex flex-wrap mb-2">
                         {
                             links.informations.map((link, index) => 
-                                <Link key={index} className="description-item description-item-hover" to="/not-update">
+                                <Link key={index} className="description-item description-item-hover" to="/TikTok/not-update">
                                     {link.title}
                                 </Link>
                             )
@@ -134,7 +134,7 @@ export default function SideBar() {
                     <div className="flex flex-wrap mb-2">
                         {
                             links.others.map((link, index) => 
-                                <Link key={index} className="description-item description-item-hover" to="/not-update">
+                                <Link key={index} className="description-item description-item-hover" to="/TikTok/not-update">
                                     {link.title}
                                 </Link>
                             )
@@ -143,7 +143,7 @@ export default function SideBar() {
                     <div className="flex flex-wrap mb-2">
                         {
                             links.support.map((link, index) => 
-                                <Link key={index} className="description-item description-item-hover" to="/not-update">
+                                <Link key={index} className="description-item description-item-hover" to="/TikTok/not-update">
                                     {link.title}
                                 </Link>
                             )
@@ -152,7 +152,7 @@ export default function SideBar() {
                     <span id="more-container" className="relative mb-2">
                         <button className="description-item">Thêm</button>
                         <div id="more" className="absolute bg-white shadow-lg rounded-md">
-                            <Link to="/not-update">
+                            <Link to="/TikTok/not-update">
                                 <p className="font-semibold">NGUYÊN TẮC THỰC THI PHÁP LUẬT CỦA TIKTOK</p>
                             </Link>
                         </div>

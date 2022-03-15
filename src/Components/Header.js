@@ -13,7 +13,7 @@ function Header() {
     return (
         <div className="z-10 w-full min-w-[800px] h-[60px] border-2 bg-white border-b-gray-200 fixed top-0">
             <div className="flex justify-between items-center m-auto pl-6 pr-5 max-w-[1150px] h-[100%]">
-                <Link to="/">
+                <Link to="/TikTok">
                     <div className="text-[28px] ">
                         <i className="fab fa-tiktok"></i>
                         <b className="ml-1 font-bold">TikTok</b>
@@ -40,7 +40,7 @@ function Header() {
                 </form>
 
                 <nav className="flex-row items-center">
-                    <Link className="font-bold hover:underline" to="/not-update">Tải lên</Link>
+                    <Link className="font-bold hover:underline" to="/TikTok/not-update">Tải lên</Link>
                     <button
                         className="cursor-pointer ml-4 py-[6px] px-2 rounded-[4px] font-bold text-white bg-[#FE2C55]"
                         onClick={ToggleShowModal}
@@ -60,7 +60,7 @@ function Header() {
                                 </button>
                             </li>
                             <li>
-                                <Link className="w-full" to="/">
+                                <Link className="w-full" to="/TikTok">
                                     <div className="option-item">
                                         <i className="fa-regular fa-circle-question"></i>
                                         <p className="ml-3 whitespace-nowrap">Phản hồi và trợ giúp</p>
