@@ -1,25 +1,25 @@
 import { useEffect, useRef} from 'react'
 
-export default function ScrollTop({ contentRef }) {
+export default function ScrollTop({ container }) {
     const scrollBtnRef = useRef()
 
     const onClickScroll = () => {
-        contentRef.current.scrollTop = 0
+        container.scrollTop = 0
     }
 
     useEffect(() => {
         const scrollHandler = () => {
-            if (contentRef.current.scrollTop > 100) scrollBtnRef.current.style.transform = 'translateY(-64px)'
+            if (container?.scrollTop > 100) scrollBtnRef.current.style.transform = 'translateY(-64px)'
             else scrollBtnRef.current.style.transform = 'translateY(0)'
 
         }
 
-        contentRef.current.addEventListener('scroll', scrollHandler)
+        container?.addEventListener('scroll', scrollHandler)
 
         return () => {
-            contentRef.current.removeEventListener('scroll', scrollHandler)
+            container?.removeEventListener('scroll', scrollHandler)
         }
-    }, [])
+    }, [container])
 
     return (
         <div>

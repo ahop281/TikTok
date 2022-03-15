@@ -60,7 +60,7 @@ function Header() {
                                 </button>
                             </li>
                             <li>
-                                <Link className="w-full" to="/TikTok">
+                                <Link className="w-full" to="/TikTok/">
                                     <div className="option-item">
                                         <i className="fa-regular fa-circle-question"></i>
                                         <p className="ml-3 whitespace-nowrap">Phản hồi và trợ giúp</p>

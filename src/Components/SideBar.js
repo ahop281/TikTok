@@ -25,9 +25,9 @@ export default function SideBar() {
             <div className="pt-[20px] pb-6 pl-3 flex flex-col justify-center items-center">
                 <nav className="flex flex-col w-full">
                     <Link 
-                        className={"sidebar-item sidebar-item-hover" + (page === 'TikTok' ? ' active' : '')} 
+                        className={"sidebar-item sidebar-item-hover" + (page === '' || page === 'TikTok' ? ' active' : '')} 
                         to='/TikTok' 
-                        onClick={() => {if (page !== 'TikTok') setPage('TikTok')}}
+                        onClick={() => {if (page !== '') setPage('')}}
                     >
                         <i className="fas fa-home"></i>
                         <span className="ml-3 max-w-hidden">Dành cho bạn</span>

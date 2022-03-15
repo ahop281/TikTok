@@ -28,7 +28,7 @@ export default function Layout() {
 
                         <Outlet />
 
-                        <ScrollTop contentRef={contentRef} />
+                        <ScrollTop container={contentRef.current} />
                     </div>
                 </div>
 
