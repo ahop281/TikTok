@@ -1,3 +1,9 @@
+# TikTok clone
+
+TikTok clone using reactjs with tailwindcss.
+Live demo [click here](https://ahop281.github.io/TikTok/)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
